@@ -13,7 +13,7 @@ const modules = [
   date: 'Saturday 07/24/21 8:00pm',
   link: 'https://www.drivethrurpg.com/product/17084/B4-The-Lost-City-Basic',
   levels: '1 - 3',
-  code: 'B4' 
+  code: 'B4'
 }
 ];
 
@@ -24,14 +24,19 @@ window.addEventListener('load', loadModules);
 function loadModules() {
   modules.forEach(module => {
     displayArea.innerHTML += `
+    <div class="card">
     <section class="article-head" style="background-image: url(${modules.image})">
     </section>
     <section class="article-body">
       <h3 class="mod-title">${modules.name}</h3>
       <p class="date-display">${modules.date}</p>
         <div class="mod-link">
-          <a class="weblink" href="${modules.link}"></a>
+          <a class="weblink" href="${modules.link}">${modules.link}</a>
+        </div>
+      <p class="mod-level">Character levels ${modules.levels}</p>
+      <p class="mod-code">Module ${modules.code}</p>
     </section>
+    </div>
     `
-  })
-}
+  });
+};

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px red solid;
+}
+
+header {
+  background-color: lavenderblush;
+  border-bottom: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-end;
+}
+
+main {
+  background-color: ivory;
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-containers {
+  margin: 0 auto;
+  display: grid;
+}
+
+.card {
+  background-color: aliceblue;
+  box-shadow: 1px 0px 3px 2px (grey);
+  transition: 0.3s;
+  margin: 1rem;
+}
