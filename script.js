@@ -81,7 +81,8 @@ function loadModules() {
   modules.forEach(module => {
     displayArea.innerHTML += `
     <div class="card">
-    <section class="article-head" style="background-image: url(${module.image})">
+    <section class="article-head">
+      <img src="${module.image}">
     </section>
     <section class="article-body">
       <h3 class="mod-title">${module.title}</h3>
