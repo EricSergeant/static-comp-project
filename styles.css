@@ -14,9 +14,14 @@ header {
 
 nav {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: flex-end;
 }
+
+/* .title-bar {
+  display: flex;
+  align-items: flex-start;
+} */
 
 main {
   background-color: ivory;

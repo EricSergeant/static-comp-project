@@ -1,5 +1,6 @@
 const modules = [
-  { image: './assets/Tomb-of-horrors copy.jpg',
+  { 
+    image: './assets/Tomb-of-horrors copy.jpg',
     title: 'Tomb of Horrors',
     likes: 02,
     date: 'Saturday 07/24/21 8:00pm',
@@ -7,14 +8,33 @@ const modules = [
     levels: '10 - 14',
     code: 'S1' 
   },
-  { image: './assets/the-lost-city copy.jpg',
+  { 
+  image: './assets/the-lost-city copy.jpg',
   title: 'The Lost City',
   likes: 18,
   date: 'Saturday 07/24/21 8:00pm',
   link: 'https://www.drivethrurpg.com/product/17084/B4-The-Lost-City-Basic',
   levels: '1 - 3',
   code: 'B4'
-}
+  },
+  { 
+    image: './assets/castle-amber copy.jpg',
+    title: 'Castle Amber',
+    likes: 12,
+    date: 'Saturday 07/24/21 8:00pm',
+    link: 'https://www.drivethrurpg.com/product/17088/X2-Castle-Amber-Basic',
+    levels: '3 - 6',
+    code: 'X2' 
+  },
+  { 
+    image: './assets/expedition-to-the-barrier-peaks copy.jpg',
+    title: 'Expedition to the Barrier Peaks',
+    likes: 4,
+    date: 'Saturday 07/24/21 8:00pm',
+    link: 'https://www.drivethrurpg.com/product/17065/S3-Expedition-to-the-Barrier-Peaks-1e',
+    levels: '8 - 12',
+    code: 'S3' 
+  },
 ];
 
 const displayArea = document.querySelector('.module-container');
