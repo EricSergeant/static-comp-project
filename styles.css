@@ -31,17 +31,22 @@ header {
   float: left;
   display: flex;
   /* justify-content: space-between; */
-  padding-right: 2rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+.nav-bttns,
+.title-bar {
+  padding-bottom: 1rem;
 }
 
 .login-bttn {
   float: right;
   display: flex;
-  padding: 0 2rem 0 2rem;
+  padding: 0.5rem 2rem 1rem 2rem;
 }
 
 .page-name {
-  font-size: 2vw;
+  font-size: 1.5vw;
   float: right;
 
 }
@@ -134,3 +139,38 @@ body {
   word-wrap: break-word;
 }
 
+
+@media screen and (min-width: 1070px) {
+  .module-container { 
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr); }
+}
+
+/* tablet size */
+/* @media screen and (min-width: 810px) {
+  .module-container {
+      margin: 0 auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, 1fr); }
+} */
+
+/* small screen sizing */
+/* @media screen and (min-width: 550px) {
+  .module-container { 
+      margin: 0 auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(2, 1fr); }
+} */
+
+/* smallest screen sizing */
+/* @media screen and (min-width: 412px) {
+  .module-container { 
+      margin: 0 auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(1, 1fr); }
+} */
