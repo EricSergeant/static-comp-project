@@ -1,4 +1,4 @@
-let modules = [
+const modules = [
   { image: './assets/Tomb-of-horrors copy.jpg',
     title: 'Tomb of Horrors',
     likes: 02,
@@ -17,3 +17,21 @@ let modules = [
 }
 ];
 
+const displayArea = document.querySelector('.module-container');
+
+window.addEventListener('load', loadModules);
+
+function loadModules() {
+  modules.forEach(module => {
+    displayArea.innerHTML += `
+    <section class="article-head" style="background-image: url(${modules.image})">
+    </section>
+    <section class="article-body">
+      <h3 class="mod-title">${modules.name}</h3>
+      <p class="date-display">${modules.date}</p>
+        <div class="mod-link">
+          <a class="weblink" href="${modules.link}"></a>
+    </section>
+    `
+  })
+}
