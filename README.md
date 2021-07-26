@@ -10,7 +10,7 @@ The layout is responsive and can be viewed across screen sizes and devices.  Her
 ![screenshot of iPad view](https://user-images.githubusercontent.com/79122599/127039071-251ce892-1efc-4792-8260-2acc3d289f70.png "iPad Screen View") 
 
 And here's a view on an iPhone X:
-![screenshot of iPhoneX view](https://drive.google.com/file/d/10iaSx0qkYJA9X3JQ6Wit4OXphzF7rzHp/view?usp=sharing "iPhoneX Screen View")
+![screenshot of iPhoneX view](https://user-images.githubusercontent.com/79122599/127039086-1f2ffed0-2e03-458c-8a82-1a1b210f10cf.png "iPhoneX Screen View")
 
 You can view the deployed site on GitHub [at this link](https://ericsergeant.github.io/static-comp-project/).
 
