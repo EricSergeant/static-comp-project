@@ -3,7 +3,7 @@
 ## Golden Age D&D Modules
 Dive into a view of the great Dungeons and Dragons modules from the 80's!  This project is a recreation of a static comp layout, using these classic modules as inspiration. 
 
-![screenshot of full screen view](https://drive.google.com/file/d/1abexCYAIe_DxUGPynJ3S5AajQiSD-s6S/view?usp=sharing "Full Screen View")
+![screenshot of full screen view](https://user-images.githubusercontent.com/79122599/127038891-36c0f8c1-13f9-45c3-b202-065c22e7c1d1.png "Full Screen View")
 
 The layout is responsive and can be viewed across screen sizes and devices.  Here's a view from an iPad:
 
