@@ -111,6 +111,7 @@ body {
   justify-content: space-between;
   padding: 0.5em;
   font-size: large; 
+  text-shadow: 0 0 2px #C1666B;
 }
 
 .article-body {
