@@ -5,8 +5,6 @@
 }
 
 html, body {
-  /* min-height: 100%; */
-  /* width: 100%; */
   width: 100vw;
   height: 100vh;
   font-family: 'Libre Baskerville', serif;
@@ -16,7 +14,6 @@ html, body {
 }
 
 header {
-  /* background-color: #48A9A6; */
   background-color: #4281A4;
   border-bottom: 5px solid black;
 }
@@ -149,6 +146,13 @@ body {
   body {
     font-size: 4vw;
   }
+  .like-bttn, 
+  .reviews-bttn, 
+  .search-bttn,
+  .login-bttn,
+  .page-name {
+    font-size: 3vw;
+  }
 }
 
 /* small screen sizing */
@@ -157,6 +161,13 @@ body {
       grid-template-columns: repeat(2, 1fr); 
   }
   body {
+    font-size: 2.5vw;
+  }
+
+  .like-bttn, 
+  .reviews-bttn, 
+  .search-bttn,
+  .login-bttn {
     font-size: 2.5vw;
   }
 }
@@ -169,6 +180,12 @@ body {
   body {
     font-size: 1.75vw;
   }
+  .like-bttn, 
+  .reviews-bttn, 
+  .search-bttn,
+  .login-bttn {
+    font-size: 2vw;
+  }
 }
 
 /* computer screen size */
@@ -178,5 +195,11 @@ body {
   }
   body {
     font-size: 1vw;
+  }
+  .like-bttn, 
+  .reviews-bttn, 
+  .search-bttn,
+  .login-bttn {
+    font-size: 1.5vw;
   }
 }
