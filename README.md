@@ -1,13 +1,18 @@
 # static-comp-project
 
 ## Golden Age D&D Modules
-
+Dive into a view of the great Dungeons and Dragons modules from the 80's!  This project is a recreation of a static comp layout, using these classic modules as inspiration. 
 
 ![screenshot of full screen view](https://drive.google.com/file/d/1abexCYAIe_DxUGPynJ3S5AajQiSD-s6S/view?usp=sharing "Full Screen View")
 
+The layout is responsive and can be viewed across screen sizes and devices.  Here's a view from an iPad:
+
 ![screenshot of iPad view](https://drive.google.com/file/d/17kk0qKtbADol4R4AUB0lm-jYyUTGV8nE/view?usp=sharing "iPad Screen View") 
 
-![screenshot of xPhone view](https://drive.google.com/file/d/10iaSx0qkYJA9X3JQ6Wit4OXphzF7rzHp/view?usp=sharing "iPhoneX Screen View")
+And here's a view on an iPhone X:
+![screenshot of iPhoneX view](https://drive.google.com/file/d/10iaSx0qkYJA9X3JQ6Wit4OXphzF7rzHp/view?usp=sharing "iPhoneX Screen View")
+
+You can view the deployed site on GitHub [at this link](https://ericsergeant.github.io/static-comp-project/).
 
 ## Overview of Project
 This is a solo project for Module Two at Turing in which we were tasked to recreate the layout of a comp image. The specs and comp information for this project can be [found here](https://frontend.turing.edu/projects/static-comp-challenge.html).  We had the latitude to change images/fonts/colors/content but were expected to maintain the same layout as the image provided.  
