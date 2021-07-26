@@ -147,16 +147,8 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   body {
-    font-size: large;
+    font-size: 4vw;
   }
-  /* .nav-bttns,
-  .title-bar {
-    padding-bottom: 0.5rem;
-    font-size: 1.5vw;
-  }
-  h1 {
-    font-size: 3vw;
-  } */
 }
 
 /* small screen sizing */
@@ -165,7 +157,7 @@ body {
       grid-template-columns: repeat(2, 1fr); 
   }
   body {
-    font-size: large;
+    font-size: 2.5vw;
   }
 }
 
@@ -174,11 +166,17 @@ body {
   .module-container { 
       grid-template-columns: repeat(3, 1fr);
   }
+  body {
+    font-size: 1.75vw;
+  }
 }
 
 /* computer screen size */
 @media screen and (min-width: 810px) {
   .module-container {
       grid-template-columns: repeat(4, 1fr); 
+  }
+  body {
+    font-size: 1vw;
   }
 }
