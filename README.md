@@ -7,7 +7,7 @@ Dive into a view of the great Dungeons and Dragons modules from the 80's!  This 
 
 The layout is responsive and can be viewed across screen sizes and devices.  Here's a view from an iPad:
 
-![screenshot of iPad view](https://drive.google.com/file/d/17kk0qKtbADol4R4AUB0lm-jYyUTGV8nE/view?usp=sharing "iPad Screen View") 
+![screenshot of iPad view](https://user-images.githubusercontent.com/79122599/127039071-251ce892-1efc-4792-8260-2acc3d289f70.png "iPad Screen View") 
 
 And here's a view on an iPhone X:
 ![screenshot of iPhoneX view](https://drive.google.com/file/d/10iaSx0qkYJA9X3JQ6Wit4OXphzF7rzHp/view?usp=sharing "iPhoneX Screen View")
