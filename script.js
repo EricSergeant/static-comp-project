@@ -83,6 +83,10 @@ function loadModules() {
     <div class="card">
     <section class="article-head">
       <img src="${module.image}">
+      <div class="overlay">
+        <i class="far fa-heart"></i>
+        <p class="num-likes">Likes: ${module.likes}</p>
+      </div>
     </section>
     <section class="article-body">
       <h3 class="mod-title">${module.title}</h3>
@@ -90,7 +94,7 @@ function loadModules() {
         <div class="mod-link">
           <a class="weblink" href="${module.link}">${module.link}</a>
         </div>
-      <p class="mod-level">Character levels ${module.levels}</p>
+      <p class="mod-level">Character levels: ${module.levels}</p>
       <p class="mod-code">Module ${module.code}</p>
     </section>
     </div>
